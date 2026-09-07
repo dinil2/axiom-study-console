@@ -1,0 +1,16 @@
+{
+  "name": "Axiom — Sri Lankan GCE A/L Study Console",
+  "short_name": "Axiom A/L",
+  "description": "Personal study console & past paper marks analyzer for Sri Lankan GCE Advanced Level students across Science, Commerce, Arts, and Technology streams.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0f19",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

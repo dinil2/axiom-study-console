@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://axiom-al-console.netlify.app/sitemap.xml
