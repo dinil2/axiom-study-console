@@ -99,47 +99,6 @@ The application is backed by a relational PostgreSQL schema in Supabase:
 
 ---
 
-## 💻 Getting Started Locally
-
-### Prerequisites
-- Node.js 18+ installed
-- npm or pnpm
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/dinil2/axiom-study-console.git
-   cd axiom-study-console
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Configure Environment Variables:**
-   Copy the example environment file:
-   ```bash
-   cp .env.example .env
-   ```
-   Add your Supabase credentials:
-   ```env
-   VITE_SUPABASE_URL=https://your-project-ref.supabase.co
-   VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
-   ```
-   *(Note: The app will run seamlessly in Demo Mode with mock data even without Supabase keys).*
-
-4. **Start the Development Server:**
-   ```bash
-   npm run dev
-   ```
-   Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-5. **Build for Production:**
-   ```bash
-   npm run build
-   ```
 
 ---
 
